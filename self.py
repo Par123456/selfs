@@ -2,7 +2,7 @@
 import asyncio
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pyrogram import Client, filters, idle, enums
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, InputTextMessageContent, ChatPermissions
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, InputTextMessageContent, ChatPermissions, ReplyKeyboardMarkup
 from pyrogram.raw import functions
 from pyrogram.raw.functions.auth import ResetAuthorizations
 from pyrogram.raw.functions.contacts import GetBlocked
