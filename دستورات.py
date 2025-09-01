@@ -296,10 +296,10 @@ keyboard_idk = ReplyKeyboardMarkup(
      ],
 one_time_keyboard=True,resize_keyboard=True)
 
-my_users = [579175468] # ایدی عددی مالک 
+my_users = [6508600903] # ایدی عددی مالک 
 users = filters.user(my_users) 
 
-my_owners = [579175468] # ایدی عددی مالک 
+my_owners = [6508600903] # ایدی عددی مالک 
 owners = filters.user(my_owners) 
 
 @app.on_inline_query()
